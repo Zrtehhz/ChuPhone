@@ -12,7 +12,7 @@ export function Spotify() {
   return (
     <div className="rounded-md relative h-full w-full select-none px-6 text-neutral-100 py-4 flex flex-col gap-6 max-h-[48rem] overflow-y-auto overflow-x-hidden">
       <div className="flex items-center justify-between w-full">
-        <h1 className="text-3xl font-bold">Bom dia</h1>
+        <h1 className="text-3xl font-bold">Bonjour</h1>
         <div className="flex items-center">
           <button type="button" className='p-2 rounded-lg hover:bg-neutral-900 transition-all text-2xl relative'>
             <span className='absolute top-2 left-3 w-2 h-2 bg-[#4C549C] rounded-full' />
@@ -33,7 +33,7 @@ export function Spotify() {
       <div className='flex flex-col items-center gap-4 w-full'>
         <button className='bg-neutral-900 hover:bg-neutral-800 transition-all rounded-md flex items-center gap-1 w-full'>
           <img className='w-16 h-16 object-cover rounded-l-md' src={likedSongsBanner} alt="Album cover" />
-          <span className='px-4 text-lg font-medium'>Músicas curtidas</span>
+          <span className='px-4 text-lg font-medium'>Chansons aimées</span>
         </button>
 
         <div className='bg-neutral-900 hover:bg-neutral-800 transition-all rounded-md flex items-center gap-1 w-full'>
@@ -48,7 +48,7 @@ export function Spotify() {
       </div>
 
       <div className='flex flex-col gap-4 w-full'>
-        <span className='text-2xl font-bold'>Recently Played</span>
+        <span className='text-2xl font-bold'>Joué récemment</span>
 
         <div className='flex gap-4 max-w-full overflow-x-auto'>
           <button type="button" className='flex flex-col gap-3 min-w-[8rem] text-left'>
@@ -62,7 +62,7 @@ export function Spotify() {
           <button type="button" className='flex flex-col gap-3 min-w-[8rem] text-left'>
             <img className='w-32 h-32 object-cover' src={'https://upload.wikimedia.org/wikipedia/pt/thumb/4/48/Imunidade_Musical.jpg/220px-Imunidade_Musical.jpg'} alt="Album cover" />
             <div className='flex flex-col'>
-              <span className='text-lg font-medium text-neutral-100 '>Imunidade Musical</span>
+              <span className='text-lg font-medium text-neutral-100 '>Immunité musicale</span>
               <span className='text-sm text-neutral-300'>Charlie Brown Jr.</span>
             </div>
           </button>
@@ -78,7 +78,7 @@ export function Spotify() {
       </div>
 
       <div className='flex flex-col gap-4 w-full'>
-        <span className='text-2xl font-bold'>Recently Played</span>
+        <span className='text-2xl font-bold'> Joué récemment</span>
 
         <div className='flex gap-4 max-w-full overflow-x-auto'>
           <button type="button" className='flex flex-col gap-3 min-w-[8rem] text-left'>
@@ -92,7 +92,7 @@ export function Spotify() {
           <button type="button" className='flex flex-col gap-3 min-w-[8rem] text-left'>
             <img className='w-32 h-32 object-cover' src={'https://upload.wikimedia.org/wikipedia/pt/thumb/4/48/Imunidade_Musical.jpg/220px-Imunidade_Musical.jpg'} alt="Album cover" />
             <div className='flex flex-col'>
-              <span className='text-lg font-medium text-neutral-100 '>Imunidade Musical</span>
+              <span className='text-lg font-medium text-neutral-100 '>Immunité musicale</span>
               <span className='text-sm text-neutral-300'>Charlie Brown Jr.</span>
             </div>
           </button>
@@ -127,17 +127,17 @@ export function Spotify() {
       <div className="bg-gradient-to-t from-black to-black/0 pt-4 flex items-center gap-16 justify-center sticky z-10 -bottom-4 absolute left-0">
         <div className='flex flex-col items-center gap-1'>
           <AiFillHome className='text-xl'/>
-          <span className='text-xs'>Home</span>
+          <span className='text-xs'>Accueil</span>
         </div>
 
         <div className='flex flex-col items-center gap-1 self-center'>
           <AiOutlineSearch className='text-xl'/>
-          <span className='text-xs'>Buscar</span>
+          <span className='text-xs'>Chercher</span>
         </div>
 
         <div className='flex flex-col items-center gap-1'>
           <BiLibrary className='text-xl'/>
-          <span className='text-xs'>Biblioteca</span>
+          <span className='text-xs'>Bibliothèque</span>
         </div>
       </div>
     </div>

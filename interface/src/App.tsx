@@ -9,6 +9,7 @@ import { BootPage } from './pages/BootPage';
 import { HomePage } from './pages/HomePage';
 
 
+
 export function App() {
   return (
     <HashRouter>
