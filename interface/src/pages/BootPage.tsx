@@ -8,8 +8,8 @@ export function BootPage() {
     <div className="flex flex-col items-center gap-1">
         <h1 className="text-3xl font-semibold leading-snug text-neutral-100">ChuPhone</h1>
         <span className="text-neutral-500 text-lg">
-          <strong className="text-[#EE6908]">C</strong>onectando {' '}
-          <strong className="text-[#EE6908]">U</strong>suários 
+          <strong className="text-[#EE6908]">S</strong>imple {' '}
+          <strong className="text-[#EE6908]">V</strong> 
         </span>
     </div>
   </div>

@@ -10,7 +10,7 @@ export function HomePage() {
 
         <div className="flex flex-col items-center">
           <h1 className="text-7xl font-semibold">21:15</h1>
-          <span>seg. 2 de janeiro</span>
+          <span>31 juillet 2023</span>
         </div>
 
         <div className="grid grid-cols-4 grid-flow-row justify-between gap-6">

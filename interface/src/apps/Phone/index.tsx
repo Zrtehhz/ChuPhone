@@ -86,7 +86,7 @@ export function Phone({}: PhoneProps) {
 
   return (
     <div className="h-full w-full px-8 text-neutral-100 py-4 flex flex-col justify-between">
-      <span className='text-lg'>Telefone</span>
+      <span className='text-lg'>Telephone</span>
 
       <div className='flex flex-col items-center gap-4'>
         <div className='w-full flex items-center justify-between'>
@@ -118,7 +118,7 @@ export function Phone({}: PhoneProps) {
 
         <button className='w-fit rounded-full bg-green-700 text-white flex items-center gap-2 p-4 hover:bg-green-600 transition-all'>
           <FiPhoneCall className="text-xl" />
-          <span className='font-medium'>Ligar</span>
+          <span className='font-medium'>Se connecter</span>
         </button>
       </div>
     </div>

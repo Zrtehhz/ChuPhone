@@ -48,7 +48,7 @@ export const defaultAppsHelper: IApps[] = [
     installed: false,
   },
   {
-    name: "Calculadora",
+    name: "Calculatrice",
     icon: "calculator.png",
     background: "bg-neutral-900",
     routePath: "/calculator",
@@ -65,7 +65,7 @@ export const defaultAppsHelper: IApps[] = [
     isNative: true,
   },
   {
-    name: "Preferências",
+    name: "Paramètres",
     icon: "settings.png",
     routePath: "/settings",
     size: "4 MB",
@@ -73,7 +73,7 @@ export const defaultAppsHelper: IApps[] = [
     isNative: true,
   },
   {
-    name: "Contatos",
+    name: "contacts",
     icon: "contacts.png",
     routePath: "/contacts",
     size: "4.8 MB",
@@ -133,7 +133,7 @@ export const defaultAppsHelper: IApps[] = [
     installed: false,
   },
   {
-    name: "Telefone",
+    name: "Telephone",
     icon: "phone.png",
     routePath: "/phone",
     size: "15 MB",
@@ -168,11 +168,11 @@ export const defaultAppsHelper: IApps[] = [
     size: "1 GB",
     installed: false,
   },
-  {
-    name: "Truco",
+ {
+    name: "SMS",
     icon: "truco.png",
     size: "5 MB",
     routePath: "/truco",
-    installed: false,
-  },
+    installed: true,
+  }, 
 ];

@@ -21,7 +21,7 @@ export function TopBar() {
         </div>
 
         <div className="flex items-center">
-          <span className='text-xs font-medium'>50%</span>
+          <span className='text-xs font-medium'>100%</span>
           <MdBatteryFull className="text-base" />
         </div>
       </div>

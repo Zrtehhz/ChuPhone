@@ -24,7 +24,7 @@ export function PlayStore({}: PlayStoreProps) {
     <div className="h-full w-full px-6 text-neutral-100 py-4 flex flex-col gap-4 max-h-[48rem] overflow-y-auto overflow-x-hidden">
       <div className="w-full bg-neutral-700 px-4 rounded-full flex items-center gap-2 text-neutral-200">
         <AiOutlineSearch />
-        <input className="py-2 w-full bg-transparent placeholder:text-neutral-300 focus:outline-none" placeholder="Buscar por apps & games" />
+        <input className="py-2 w-full bg-transparent placeholder:text-neutral-300 focus:outline-none" placeholder="Rechercher.." />
       </div>
 
       <h1 className="text-2xl font-bold mb-1">Apps</h1>
@@ -46,14 +46,14 @@ export function PlayStore({}: PlayStoreProps) {
 
               {installed ? (
                 <Link to={routePath} className="hidden items-center group-hover:flex text-green-500 p-1 px-3 rounded-lg hover:bg-green-500/10 transition-all">
-                  <span>Abrir</span>
+                  <span>Ouvrir</span>
                 </Link>
 
               ) : (
                 // TODO: Make a install animation
                 <button type="button" onClick={() => handleAppInstallation(name)} className="hidden items-center gap-2 group-hover:flex text-blue-400 p-1 px-3 rounded-lg hover:bg-blue-400/20  transition-all">
                   <AiOutlineCloudDownload />
-                  <span>Instalar</span>
+                  <span>Installer</span>
                 </button>
 
               )}
