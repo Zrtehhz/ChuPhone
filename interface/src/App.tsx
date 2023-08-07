@@ -7,7 +7,8 @@ import { Spotify } from './apps/Spotify';
 import { PhoneLayout } from "./layouts/PhoneLayout";
 import { BootPage } from './pages/BootPage';
 import { HomePage } from './pages/HomePage';
-
+/* import { Contacts } from './apps/Contacts'; // Importe le composant pour la page "Contacts"
+ */import { Settings } from './apps/Settings'; 
 
 export function App() {
   return (
@@ -25,10 +26,11 @@ export function App() {
           <Route path="/store" element={<PlayStore />} />
           <Route path="/ifood" element={<Ifood />} />
           <Route path="/phone" element={<Phone />} />
+{/*           <Route path="/contacts" element={<Contacts />} /> // Route pour la page "Contacts"
+ */}          <Route path="/settings" element={<Settings />} /> 
 
         </Route>
       </Routes>
     </HashRouter>
-    
   )
 };
